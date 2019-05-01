@@ -3,7 +3,7 @@ from sklearn import datasets
 from sklearn.model_selection import train_test_split
 from sklearn.neighbors import KNeighborsClassifier 
 
-#获取iris（鸢尾花）数据集
+#获取iris（自带的鸢尾花）数据集
 iris = datasets.load_iris()
 #获取鸢尾花属性
 iris_x = iris.data      
