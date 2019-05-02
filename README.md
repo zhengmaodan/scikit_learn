@@ -8,3 +8,5 @@
 第三个例子make_regression_data是利用sklearn生成线性数据集
 
 第四个例子KNN是一个简单的KNN分类算法实现
+
+第五个例子normalzation是归一化数据值对准确度影响的测试
