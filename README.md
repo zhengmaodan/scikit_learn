@@ -6,3 +6,5 @@
 第二个例子boston_example是对自带数据集boston利用linearRegression模型进行训练
 
 第三个例子make_regression_data是利用sklearn生成线性数据集
+
+第四个例子KNN是一个简单的KNN分类算法实现
