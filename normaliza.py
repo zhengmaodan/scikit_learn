@@ -11,7 +11,8 @@ import matplotlib.pyplot as plt
 #print(preprocessing.scale(a))
 
 #n_informative是聚类簇数量，n_redundant是冗余特征的数量，n_clusters_per_class是每个类的簇数
-#random_state确定数据集创建的随机数，scale乘以features移位features
+
+#random_state确定数据集创建的随机数，scale乘以features移位features
 #生成数据集
 x,y = make_classification(n_samples = 300,n_features = 2,n_redundant = 0,n_informative = 2,
                           random_state = 22,n_clusters_per_class = 1,scale = 100)
@@ -22,7 +23,7 @@ x,y = make_classification(n_samples = 300,n_features = 2,n_redundant = 0,n_infor
 #plt.show()
 #print(x)
 #print(y)
-#归一化数据
+#归一化数据，注释此处以检测归一化对精确度的影响
 x = preprocessing.scale(x)
 #分离训练集和测试集
 x_train,x_test,y_train,y_test = train_test_split(x,y,test_size = 0.3)
